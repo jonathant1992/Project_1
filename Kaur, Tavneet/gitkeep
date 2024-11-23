@@ -1,1 +1,37 @@
- 
+import requests
+
+# Define API key and endpoint
+API_KEY = "GET /api/v2/tiktok/music/{identifier}/video/volume"  # Replace with your actual API key
+BASE_URL = "https://doc.api.soundcharts.com/api/v2"
+ENDPOINT = "/tiktok/get-music-video-count"
+
+# Define headers
+headers = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json",
+}
+
+# Define parameters for the request
+params = {
+    "music_id": "Flower"  # Replace with the actual music ID you want to analyze
+}
+
+# Function to fetch video count for a TikTok music track
+def fetch_tiktok_video_count(music_id):
+    try:
+        response = requests.get(
+            f"{BASE_URL}{ENDPOINT}",
+            headers=headers,
+            params={"music_id": music_id}
+        )
+        if response.status_code == 200:
+            data = response.json()
+            print(f"Music ID: {music_id}")
+            print(f"Video Count: {data['video_count']}")
+        else:
+            print(f"Failed to fetch data: {response.status_code} - {response.text}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+# Replace "12345" with the actual music ID you're interested in
+fetch_tiktok_video_count("12345")
