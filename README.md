@@ -22,3 +22,41 @@ Analysis: With the help of Xpert Learning Assistant and ChatGPT. I was able to c
 
 
 Ray Lawrence: For my analysis, we were concerned about whether or not artist popularity would contribute to the popularity of a song on the social media platform TikTok based on 2022 data. I took 2 datasets, Top Spotify songs of 2022 and Top TikTok songs of 2022 and merged them into one, paying attention to track popularity, artist popularity, and danceability. I was concerned with danceability because some of Tiktok’s trending audio is used for dance challenges and trends and I wanted to see if a more danceable song by a popular artist did better on Tiktok than a less danceable one from the same artist. Testing scatterplot data from both artist popularity vs song popularity and danceability vs song popularity, we found that both scatterplot graphs showed little to no correlation between either metric (danceability/artist popularity) and song popularity. We decided to test this further and look at the top 5 artists based on popularity from the dataset and compare where their songs finished within the top 20 songs on Tiktok for 2022. We found that 2 of the top 5 artists were in the top 5 of songs, 3 of the top 5 were in the top 20, with 2 artists finishing outside of the top 20 Tiktok songs. These findings further reinforced the data and analysis that we conducted and collected from the scatterplot data which is that artist popularity has no effect on song popularity on TikTok, and that there are more factors that contribute to a song's success, specifically on TikTok
+
+
+
+
+
+
+Tavneet Kaur: Country Analysis on Spotify Streaming Data
+
+Project Overview:
+
+This project analyzes global Spotify streaming data to explore the top songs, artists, and countries contributing to streaming trends. The dataset used includes song names, artist names, total streams, and country details. Various insights and visualizations are generated to highlight the most streamed songs and artists, top contributing countries, and patterns in streaming data.
+
+Goals of the Project:
+
+Top 10 Songs by Streams: Identify the most streamed songs globally.
+Top 10 Artists by Streams: Highlight the artists with the highest number of streams.
+Top 10 Countries by Streams: Analyze which countries contribute the most to Spotify streams.
+Song-Specific Analysis: Visualize country-specific streams for individual songs.
+Relationship between Streams and Tracks: Explore the relationship between the total number of streams and unique tracks per country.
+
+Key Analyses and Visualizations:
+
+Top Songs: STAY (with Justin Bieber) leads with 6.3M streams.
+Top Artists: Lil Nas X tops with 11.4M streams, followed by Doja Cat and Drake.
+Top Countries: The United States dominates with 70M streams, followed by Brazil and Mexico.
+Song-Specific Analysis: Shape of You streams are highest in India, followed by Japan and Australia.
+Streams vs. Tracks: Higher unique tracks correlate with higher total streams.
+
+Conclusion:
+
+Through this project, we identified key trends in Spotify streaming data:
+
+The United States dominates global streams.
+Artists like Lil Nas X and Doja Cat are among the most popular.
+Specific songs like Shape of You have country-specific popularity (e.g., high streams in India and Japan).
+
+
+
