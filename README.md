@@ -6,12 +6,12 @@ This project analyzes global Spotify streaming data to explore the top songs, ar
 
 **Goals of the Project:**
 
-Top 10 Songs by Streams: Identify the most streamed songs globally.
-Top 10 Artists by Streams: Highlight the artists with the highest number of streams.
-Top 10 Countries by Streams: Analyze which countries contribute the most to Spotify streams.
-Song-Specific Analysis: Visualize country-specific streams for individual songs.
-Relationship between Streams and Tracks: Explore the relationship between the total number of streams and unique tracks per country.
-Analyze the relationship between artist popularity and song popularity on the social media platform Tiktok.
+Top 10 Songs by Streams: Identify the most streamed songs globally.<br>
+<br>Top 10 Artists by Streams: Highlight the artists with the highest number of streams.<br>
+<br>Top 10 Countries by Streams: Analyze which countries contribute the most to Spotify streams.<br>
+<br>Song-Specific Analysis: Visualize country-specific streams for individual songs.<br>
+<br>Relationship between Streams and Tracks: Explore the relationship between the total number of streams and unique tracks per country.<br>
+<br>Analyze the relationship between artist popularity and song popularity on the social media platform Tiktok.<br>
 
 
 **David: Does a certain language of a song impact the song’s success and popularity?**
