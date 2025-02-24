@@ -54,9 +54,9 @@ Relationship between artist popularity and song popularity on social media: Scat
 
 Through this project, we identified key trends in Spotify streaming data:
 
-The United States dominates global streams.
-Artists like Lil Nas X and Doja Cat are among the most popular.
-Song popularity on a social media platform like TikTok is based on more factors than artist popularity.
+<br>The United States dominates global streams.<br>
+<br>Artists like Lil Nas X and Doja Cat are among the most popular.<br>
+<br>Song popularity on a social media platform like TikTok is based on more factors than artist popularity.<br>
 
 
 
