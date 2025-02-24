@@ -44,7 +44,7 @@ Top Artists: Lil Nas X tops with 11.4M streams, followed by Doja Cat and Drake.
 Top Countries: The United States dominates with 70M streams, followed by Brazil and Mexico.
 Song-Specific Analysis: Shape of You streams are highest in India, followed by Japan and Australia.
 Streams vs. Tracks: Higher unique tracks correlate with higher total streams.
-Relationship between artist popularity and song popularity on social media: Scatterplot data shows no direct correlation between artist popularity and song popularity. Specifically on Tiktok, more factors than danceability play a role in determining a song's popularity More factors contribute to the success of a song.
+Relationship between artist popularity and song popularity on social media: Scatterplot data shows no direct correlation between artist popularity and song popularity. Specifically on Tiktok, more factors than danceability play a role in determining a song's popularity.
 
 
 Conclusion:
