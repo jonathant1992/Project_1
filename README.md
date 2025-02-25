@@ -40,13 +40,13 @@ Specific songs like Shape of You have country-specific popularity (e.g., high st
 
 
 
-**Key Analyses and Visualizations:**
+**Key Analyses and Visualizations:**<br>
 
-Top Songs: STAY (with Justin Bieber) leads with 6.3M streams.
-Top Artists: Lil Nas X tops with 11.4M streams, followed by Doja Cat and Drake.
-Top Countries: The United States dominates with 70M streams, followed by Brazil and Mexico.
-Song-Specific Analysis: Shape of You streams are highest in India, followed by Japan and Australia.
-Streams vs. Tracks: Higher unique tracks correlate with higher total streams.
+Top Songs: STAY (with Justin Bieber) leads with 6.3M streams.<br>
+Top Artists: Lil Nas X tops with 11.4M streams, followed by Doja Cat and Drake.<br>
+Top Countries: The United States dominates with 70M streams, followed by Brazil and Mexico.<br>
+Song-Specific Analysis: Shape of You streams are highest in India, followed by Japan and Australia.<br>
+Streams vs. Tracks: Higher unique tracks correlate with higher total streams.<br>
 Relationship between artist popularity and song popularity on social media: Scatterplot data shows no direct correlation between artist popularity and song popularity. Specifically on Tiktok, more factors than danceability play a role in determining a song's popularity.
 
 
