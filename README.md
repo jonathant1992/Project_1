@@ -15,9 +15,12 @@ Top 10 Songs by Streams: Identify the most streamed songs globally.<br>
 <br>
 **Ray Lawrence: Is there a correlation between song popularity and artist popularity on social media?**
 <br>**Setup:** To create the dataframe for my analysis, I took 2 datasets, Top Spotify Songs of 2022 and Top Tiktok Songs of 2022 and reduced both of them to only include the metrics that I was concerned about. I merged the 2 cleaned datasets on the artist_names column and then dropped the artist_name column. I did this because some songs might have more than 1 artist working on it so I wanted to account for the contributions of the other artists as well.<br>
+<br>
 ![image](https://github.com/user-attachments/assets/7ffd557d-7839-4e86-aed7-c974c6f7bee7)
 <br>
+<br>
 I sorted the dataframe in ascending order based on a song's peak rank and only included songs that cracked the top 50 in peak rank. From here, I created 2 scatterplots, 1 based on the danceability of a song vs the songs popularity and another one based on the songs popularity vs the artist popularity.<br>
+<br>
 ![image](https://github.com/user-attachments/assets/29ded018-1750-4e5a-9837-ce189b368b8a) <br>
 <br>
 ![image](https://github.com/user-attachments/assets/99514d33-b9d1-4144-8291-2bafd13ea0e4) <br>
