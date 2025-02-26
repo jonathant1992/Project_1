@@ -1,4 +1,4 @@
-# Project_1
+# Spotify Music Analysis
 
 **Project Overview:**
 
