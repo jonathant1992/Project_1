@@ -12,6 +12,21 @@ Top 10 Songs by Streams: Identify the most streamed songs globally.<br>
 <br>Song-Specific Analysis: Visualize country-specific streams for individual songs.<br>
 <br>Relationship between Streams and Tracks: Explore the relationship between the total number of streams and unique tracks per country.<br>
 <br>Analyze the relationship between artist popularity and song popularity on the social media platform Tiktok.<br>
+<br>
+**Ray Lawrence: Is there a correlation between song popularity and artist popularity on social media?**
+<br>**Setup:** To create the dataframe for my analysis, I took 2 datasets, Top Spotify Songs of 2022 and Top Tiktok Songs of 2022 and reduced both of them to only include the metrics that I was concerned about. I merged the 2 cleaned datasets on the artist_names column and then dropped the artist_name column. I did this because some songs might have more than 1 artist working on it so I wanted to account for the contributions of the other artists as well.<br>
+![image](https://github.com/user-attachments/assets/7ffd557d-7839-4e86-aed7-c974c6f7bee7)
+<br>
+I sorted the dataframe in ascending order based on a song's peak rank and only included songs that cracked the top 50 in peak rank. From here, I created 2 scatterplots, 1 based on the danceability of a song vs the songs popularity and another one based on the songs popularity vs the artist popularity.<br>
+![image](https://github.com/user-attachments/assets/29ded018-1750-4e5a-9837-ce189b368b8a) <br>
+<br>
+![image](https://github.com/user-attachments/assets/99514d33-b9d1-4144-8291-2bafd13ea0e4) <br>
+<br>
+**Analysis:** We were concerned about whether or not artist popularity would contribute to the popularity of a song on the social media platform TikTok based on 2022 data. The metric I was concerned with the most was danceability because some of Tiktok’s trending audio is used for dance challenges and trends and I wanted to see if a more danceable song by a popular artist did better on Tiktok than a less danceable one from the same artist. Testing scatterplot data from both artist popularity vs song popularity and danceability vs song popularity, we found that both scatterplot graphs showed little to no correlation between either metric (danceability/artist popularity) and song popularity. We decided to test this further and look at the top 5 artists based on popularity from the dataset and compare where their songs finished within the top 20 songs on Tiktok for 2022. We found that 2 of the top 5 artists were in the top 5 of songs, 3 of the top 5 were in the top 20, with 2 artists finishing outside of the top 20 Tiktok songs. These findings further reinforced the data and analysis that we conducted and collected from the scatterplot data which is that artist popularity has no effect on song popularity on TikTok, and that there are more factors that contribute to a song's success.
+
+**Datasets used for 2022 TikTok song analysis:** 
+<br>https://www.kaggle.com/datasets/sveta151/spotify-top-chart-songs-2022<br>
+https://www.kaggle.com/datasets/sveta151/tiktok-popular-songs-2022
 
 
 **David: Does a certain language of a song impact the song’s success and popularity?**
@@ -20,14 +35,6 @@ Analysis: With the help of Xpert Learning Assistant and ChatGPT. I was able to c
 
 
 
-**Ray Lawrence: Is there a correlation between song popularity and artist popularity on social media?**
-<br>**Setup:** To create the dataframe for my analysis, I took 2 datasets, Top Spotify Songs of 2022 and Top Tiktok Songs of 2022 and reduced both of them to only include the metrics that I was concerned about. I merged the 2 cleaned datasets on the artist_names column and then dropped the artist_name column. I did this because some songs might have more than 1 artist working on it so I wanted to account for the contributions of the other artists as well. I sorted the dataframe in ascending order based on a song's peak rank and only included songs that cracked the top 50 in peak rank. From here, I created 2 scatterplots, 1 based on the danceability of a song vs the songs popularity and another one based on the songs popularity vs the artist popularity.
-
-**Analysis:** We were concerned about whether or not artist popularity would contribute to the popularity of a song on the social media platform TikTok based on 2022 data. The metric I was concerned with the most was danceability because some of Tiktok’s trending audio is used for dance challenges and trends and I wanted to see if a more danceable song by a popular artist did better on Tiktok than a less danceable one from the same artist. Testing scatterplot data from both artist popularity vs song popularity and danceability vs song popularity, we found that both scatterplot graphs showed little to no correlation between either metric (danceability/artist popularity) and song popularity. We decided to test this further and look at the top 5 artists based on popularity from the dataset and compare where their songs finished within the top 20 songs on Tiktok for 2022. We found that 2 of the top 5 artists were in the top 5 of songs, 3 of the top 5 were in the top 20, with 2 artists finishing outside of the top 20 Tiktok songs. These findings further reinforced the data and analysis that we conducted and collected from the scatterplot data which is that artist popularity has no effect on song popularity on TikTok, and that there are more factors that contribute to a song's success.
-
-**Datasets used for 2022 TikTok song analysis:** 
-<br>https://www.kaggle.com/datasets/sveta151/spotify-top-chart-songs-2022<br>
-https://www.kaggle.com/datasets/sveta151/tiktok-popular-songs-2022
 
 
 
